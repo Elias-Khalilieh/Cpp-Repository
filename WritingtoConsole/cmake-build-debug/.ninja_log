@@ -1,0 +1,11 @@
+# ninja log v6
+3	294	7451158887174118	CMakeFiles/WritingtoConsole.dir/main.cpp.obj	9a087c0ee2766c
+305	364	7451158890197437	WritingtoConsole.exe	1ad69bbe14f2ed84
+14	328	7451159244990782	CMakeFiles/WritingtoConsole.dir/main.cpp.obj	9a087c0ee2766c
+329	411	7451159248133726	WritingtoConsole.exe	1ad69bbe14f2ed84
+19	336	7451159454431991	CMakeFiles/WritingtoConsole.dir/main.cpp.obj	9a087c0ee2766c
+337	402	7451159457606323	WritingtoConsole.exe	1ad69bbe14f2ed84
+17	340	7451159752512431	CMakeFiles/WritingtoConsole.dir/main.cpp.obj	9a087c0ee2766c
+340	402	7451159755747957	WritingtoConsole.exe	1ad69bbe14f2ed84
+20	751	7451160728991184	CMakeFiles/WritingtoConsole.dir/main.cpp.obj	9a087c0ee2766c
+751	913	7451160736304689	WritingtoConsole.exe	1ad69bbe14f2ed84
