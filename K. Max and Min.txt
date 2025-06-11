@@ -1,0 +1,16 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+
+int main() {
+    int A,B,C;
+    int minimum,maximum;
+    cin >> A >> B >> C;
+    int temp1 = max(A,B);
+    maximum = max(temp1,C);
+    int temp2 = min(A,B);
+    minimum = min(temp2,C);
+    cout << minimum << " "<< maximum;
+    return 0;
+}

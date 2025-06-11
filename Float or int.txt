@@ -1,0 +1,22 @@
+
+#include <iostream>
+using namespace std;
+
+
+
+int main() {
+    double n;
+    cin >> n ;
+    int n1 = n;
+    
+    float difference = n -n1;
+    
+    
+    if (difference == 0 ){
+        cout << "int " << n;
+    }
+    else{
+        cout << "float " << n1 << " "<< difference;
+    }
+    return 0;
+}

@@ -1,0 +1,19 @@
+
+#include <iostream>
+using namespace std;
+int main() {
+    char letter;
+    cin >> letter;
+    int letter_to_num = int(letter);
+    if (letter_to_num <= 90){
+        letter_to_num +=32;
+        char num_to_letter = char(letter_to_num);
+        cout << num_to_letter;
+    }
+    else{
+        letter_to_num -=32;
+        char num_to_letter = char(letter_to_num);
+        cout << num_to_letter;
+    }
+    return 0;
+}

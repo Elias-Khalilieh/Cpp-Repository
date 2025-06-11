@@ -1,0 +1,26 @@
+
+#include <iostream>
+
+#include <cmath>
+
+using namespace std;
+
+
+
+int main() {
+    int num;
+    cin >> num;
+    
+    int arr[num];
+    int max_num = 0;
+    
+    for (int i = 0; i < num; i++){
+        cin >> arr[i];
+        if (arr[i] > max_num){
+            max_num = arr[i];
+        }
+    }
+    cout << max_num;
+    
+    
+}

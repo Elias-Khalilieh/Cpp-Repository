@@ -1,0 +1,22 @@
+
+#include <iostream>
+using namespace std;
+int main() {
+    int X;
+    cin >> X;
+    
+    if (X <= 999 || X > 9999){
+        cout<< " Invalid!";
+    }
+    else {
+        int FD;
+        FD = X / 1000;
+        if (FD % 2 ==0){
+            cout << "EVEN";
+        }
+        else{
+            cout << "ODD";
+        }
+    }
+    return 0;
+}

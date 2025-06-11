@@ -1,0 +1,31 @@
+
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+
+
+int main() {
+    
+    long long A;
+    cin >> A;
+    
+    int years,months,days;
+    int difference1, difference2;
+    
+    years = A / 365;
+    difference1 = A % 365;
+    
+    months = difference1 / 30;
+    difference2 = difference1 % 30;
+    
+    days = difference2;
+    
+    
+    
+    cout << years << " years" << endl;
+    cout << months << " months" << endl;
+    cout << days << " days" << endl;
+    return 0;
+}
